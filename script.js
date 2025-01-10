@@ -4,3 +4,4 @@ const text = document.getElementsByClassName('text');
 const title = document.getElementById('title');
 const el = document.getElementsByTagName('a');
 console.log(titre , items , text , title , el);
+alert
