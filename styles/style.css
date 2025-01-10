@@ -13,8 +13,12 @@
   --color-5: #f9f9f9;
 }
 body {
+  display: flex;
+  justify-content: center;
   height: 100vh;
-  background-image: linear-gradient(var(--color-1));
+  /* background-image: linear-gradient(var(--color-1)); */
+  background: #5A72A0;
+  max-width: 100vw;
 }
 .header {
   display: flex;
@@ -22,18 +26,22 @@ body {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   max-width: 100%;
   height: 34em;
   background: no-repeat center / cover url(../images/rb_2149156526.png);
+  box-shadow: 10px 10px 20px #77E4C8,
+              -10px -10px 20px #77E4C8;
+  border-radius: 30px;
+  margin-top: 3vh;
 }
 .photoProfile img {
+  border-radius: 50%;
   width: 10em;
   height: 10em;
-  /* border-radius: 50%; */
-  /* position: relative; */
-  object-fit: cover;
+  /* object-fit: cover; */
   margin-top: 2vh;
+  border: 2px dashed rgb(67, 67, 102);
 }
 .infos h1 {
   color: #fff;
@@ -95,7 +103,7 @@ body {
   border: none;
   color: #fff;
   font-size: 1rem;
-  background-color: #6528F7;
+  background-color: #6528f7;
   padding: 10px;
   margin-bottom: 10px;
   width: 8em;
@@ -107,4 +115,17 @@ body {
 #hireMe:hover {
   background-color: #fff;
   color: #000;
+  font-weight: 500;
+}
+
+.main {
+  font-size: 1.5rem;
+  background: #5e686d;
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+table {
+  font-size: 2rem;
 }
