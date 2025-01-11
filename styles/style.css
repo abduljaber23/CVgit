@@ -28,6 +28,7 @@ body {
   flex-wrap: wrap;
   width: 90%;
   max-width: 100%;
+  min-width: 17em;
   height: 37em;
   background: no-repeat center / cover url(../images/rb_2149156526.png);
   box-shadow: 10px 10px 20px #77E4C8,
