@@ -74,48 +74,84 @@
       <div class="atouts">
         <h2>Atouts</h2>
         <ul>
-          <li>
-            <i class="bx bx-check"></i> Créativité
-          </li>
-          <li>
-            <i class="bx bx-check"></i> Autonomie
-          </li>
-          <li>
-            <i class="bx bx-check"></i> Rigueur
-          </li>
-          <li>
-            <i class="bx bx-check"></i> Capacité d'adaptation
-          </li>
+          <li><i class="bx bx-check"></i> Créativité</li>
+          <li><i class="bx bx-check"></i> Autonomie</li>
+          <li><i class="bx bx-check"></i> Rigueur</li>
+          <li><i class="bx bx-check"></i> Capacité d'adaptation</li>
         </ul>
       </div>
-      <div class="infos">
+      <div class="infosP">
         <h2>Bio</h2>
         <ul>
           <li><span>Age: </span>23</li>
           <li><span>Email: </span>abduljaber@gmail.com</li>
           <li><span>Phone: </span>05481022</li>
-          <li><span>Adresse: </span>2 rus jdks dhg<br> 36220 paris</li>
+          <li>
+            <span>Adresse: </span>2 rus jdks dhg<br />
+            36220 paris
+          </li>
         </ul>
       </div>
     </main>
+    <section class="experience">
+      <div class="expe">
+        <h2>Expériences Professionnelles</h2>
+        <p>
+          <span> 2022/2023 : </span>
+          Formation vendeur conseiller en magasin (Equivalent bac pro commerce)
+        </p>
+        <p>
+          <span> 2020/2021 : </span>
+          Première année de bac pro commerce Lycée Jean Monnet à Yzeure (03)
+        </p>
+        <h2>
+          Formations
+        </h2>
+        <p>
+          <span> 2022/2023 : </span>
+          Formation vendeur conseiller en magasin (Equivalent bac pro commerce)
+        </p>
+        <p>
+          <span> 2020/2021 : </span>
+          Première année de bac pro commerce Lycée Jean Monnet à Yzeure (03)
+        </p>
+      </div>
+    </section>
 
-
-
+    <section class="competences">
+      <div class="comp">
+        <h2>Competences</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>MySQL</li>
+          <li>PHP</li>
+          <li>WordPress</li>
+        <h2>
+          Centres d'intérêt
+        </h2>
+      </div>
+    </section>
 
     <script>
-        // Fonction pour télécharger un fichier
-        function downloadFile(filename, filepath) {
-            // Créer un élément <a> temporaire
-            const link = document.createElement('a');
-            link.href = filepath; // Chemin vers le fichier
-            link.download = filename; // Nom du fichier à télécharger
-            document.body.appendChild(link); // Ajouter le lien au DOM
-            link.click(); // Déclencher le clic
-            document.body.removeChild(link); // Supprimer le lien après le clic
-        }
-        // Ajout d'un écouteur d'événement au bouton
-        document.getElementById('downloadBtn').addEventListener('click', function() {
-            downloadFile('AL_OMRAN_CV.pdf', 'AL OMRA abduljaber cv.pdf'); // Remplacez 'cv.pdf' par le chemin réel de votre fichier
+      // Fonction pour télécharger un fichier
+      function downloadFile(filename, filepath) {
+        // Créer un élément <a> temporaire
+        const link = document.createElement("a");
+        link.href = filepath; // Chemin vers le fichier
+        link.download = filename; // Nom du fichier à télécharger
+        document.body.appendChild(link); // Ajouter le lien au DOM
+        link.click(); // Déclencher le clic
+        document.body.removeChild(link); // Supprimer le lien après le clic
+      }
+      // Ajout d'un écouteur d'événement au bouton
+      document
+        .getElementById("downloadBtn")
+        .addEventListener("click", function () {
+          downloadFile("AL_OMRAN_CV.pdf", "AL OMRA abduljaber cv.pdf"); // Remplacez 'cv.pdf' par le chemin réel de votre fichier
         });
     </script>
   </body>
