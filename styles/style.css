@@ -135,22 +135,23 @@ main{
   border-radius: 30px;
   margin-top: 3vh;
   font-weight: 500;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: #fff;
-  gap: 45px;
+  gap: 20px;
+  word-spacing: 4px;
 }
 main h2 {
   font-size: 2em;
   margin-bottom: 0.6em;
   font-weight: 600;
-  color: aqua;
+  color: #A294F9;
 }
 main li {
   list-style: none;
 }
 main span  {
-  color: red;
+  color: #A294F9;
   font-size: 1.7rem;
 }
 .atouts li {
