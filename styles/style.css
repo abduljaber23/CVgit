@@ -47,8 +47,8 @@ body {
   border: 2px dashed rgb(67, 67, 102);
 }
 .infos h1 {
-  color: #fff;
-  font-size: 2em;
+  color: #FF6B6B;
+  font-size: 2.5em;
   margin-top: 1em;
   text-align: center;
 }
@@ -220,6 +220,7 @@ main span  {
   /* border-radius: 30px; */
   margin-top: 1vh;
   color: #fff;
+  gap: 10px;
   position: relative;
 }
 .comp{
@@ -245,4 +246,9 @@ main span  {
 .competences li{
   font-size: 1.7rem;
   list-style: none;
+}
+.lienGit a{
+  font-size: 1.4;
+  color: red;
+  text-decoration: none;
 }
