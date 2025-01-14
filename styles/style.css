@@ -30,7 +30,8 @@ body {
   width: 100%;
   max-width: 100%;
   min-width: 17em;
-  height: 40em;
+  /* height: 100em; */
+  padding-bottom: 300px;
   background-color: var(--color-2);
   /* background: no-repeat center / cover url(../images/rb_2149156526.png); */
   box-shadow: 10px 10px 20px #77E4C8,
@@ -115,6 +116,7 @@ body {
   width: 8em;
   height: 3em;
   margin-right: 10px;
+  margin-left: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -133,12 +135,13 @@ main{
   width: 100%;
   max-width: 100%;
   min-width: 11em;
-  height: 40em;
+  /* height: 40em; */
   background-color: var(--color-2);
   /* background: no-repeat center / cover url(../images/rb_2149156526.png); */
   box-shadow: 10px 10px 20px #77E4C8;
   /* border-radius: 30px; */
   margin-top: 1vh;
+  padding: 1vh;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;

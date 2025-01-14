@@ -71,7 +71,9 @@
         </a>
       </div> -->
       <div class="buttons">
-        <button class="downloadCV" id="downloadBtn">Download CV</button>
+        <button class="downloadCV" class="downloadBtn" id="display">Afficher mes projets</button>
+    <div id="repos"></div>
+
         <button id="hireMe">HIRE ME</button>
       </div>
     </header>
@@ -141,25 +143,6 @@
         </p>
       </div>
     </section>
-
-    <script>
-      // Fonction pour télécharger un fichier
-      function downloadFile(filename, filepath) {
-        // Créer un élément <a> temporaire
-        const link = document.createElement("a");
-        link.href = filepath; // Chemin vers le fichier
-        link.download = filename; // Nom du fichier à télécharger
-        document.body.appendChild(link); // Ajouter le lien au DOM
-        link.click(); // Déclencher le clic
-        document.body.removeChild(link); // Supprimer le lien après le clic
-      }
-      // Ajout d'un écouteur d'événement au bouton
-      document
-        .getElementById("downloadBtn")
-        .addEventListener("click", function () {
-          downloadFile("AL_OMRAN_CV.pdf", "AL OMRA abduljaber cv.pdf"); // Remplacez 'cv.pdf' par le chemin réel de votre fichier
-        });
-    </script>
     <script src="script.js"></script>
   </body>
 </html>
